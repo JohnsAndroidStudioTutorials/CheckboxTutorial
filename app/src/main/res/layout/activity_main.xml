@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.johnsandroidstudiotutorials.checkboxtutorial.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Options relevant to you"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.032" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I have:"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.032" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:visibility="visible" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/impressive_skills_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Impressive technical skills"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="33dp"
+                tools:layout_editor_absoluteY="84dp" />
+
+            <CheckBox
+                android:id="@+id/willingness_to_learn_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Willingness to learn"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="33dp"
+                tools:layout_editor_absoluteY="123dp" />
+
+            <CheckBox
+                android:id="@+id/debugging_skills_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Debugging skills"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="33dp"
+                tools:layout_editor_absoluteY="182dp" />
+
+            <CheckBox
+                android:id="@+id/work_environment_match_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Work environment match"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="33dp"
+                tools:layout_editor_absoluteY="265dp" />
+
+            <CheckBox
+                android:id="@+id/problem_solving_skills_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Problem-solving skills"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="33dp"
+                tools:layout_editor_absoluteY="297dp" />
+
+            <CheckBox
+                android:id="@+id/passion_for_the_work_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Passion for the work"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="33dp"
+                tools:layout_editor_absoluteY="329dp" />
+
+            <CheckBox
+                android:id="@+id/grace_under_fire_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grace under fire"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="33dp"
+                tools:layout_editor_absoluteY="84dp" />
+
+            <CheckBox
+                android:id="@+id/people_skills_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="People skills"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="33dp"
+                tools:layout_editor_absoluteY="123dp" />
+
+            <CheckBox
+                android:id="@+id/laziness_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Laziness"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="33dp"
+                tools:layout_editor_absoluteY="182dp" />
+
+            <CheckBox
+                android:id="@+id/a_business_perspective_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A business perspective"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="33dp"
+                tools:layout_editor_absoluteY="265dp" />
+
+            <CheckBox
+                android:id="@+id/ability_to_plan_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ability to plan"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="33dp"
+                tools:layout_editor_absoluteY="297dp" />
+
+            <CheckBox
+                android:id="@+id/ability_to_handle_failure_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ability to handle failure"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="33dp"
+                tools:layout_editor_absoluteY="329dp" />
+
+            <CheckBox
+                android:id="@+id/teamwork_mentality_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Teamwork mentality"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="33dp"
+                tools:layout_editor_absoluteY="84dp" />
+
+            <CheckBox
+                android:id="@+id/willingness_to_research_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Willingness to research"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="33dp"
+                tools:layout_editor_absoluteY="123dp" />
+
+            <CheckBox
+                android:id="@+id/respect_for_deadlines_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Respect for deadlines"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="33dp"
+                tools:layout_editor_absoluteY="182dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+</LinearLayout>
